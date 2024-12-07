@@ -44,4 +44,3 @@ def test_login_with_empty_password(browser):
     login_page = LoginPage(browser)
     result = login_page.login("standard_user2", "")
     assert result == "Epic sadface: Password is required"
-    pass
