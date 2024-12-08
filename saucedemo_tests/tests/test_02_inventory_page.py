@@ -1,8 +1,7 @@
-from saucedemo_tests.conftest import logged_in_page
+from saucedemo_tests.conftest import login_test_params
 from saucedemo_tests.pages.inventory_page import InventoryPage
 from saucedemo_tests.utils.browser_utils import get_cart_count, sort_items
 import pytest
-from saucedemo_tests.conftest import login_test_params
 
 USER_COST = 16
 

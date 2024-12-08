@@ -7,7 +7,6 @@ from saucedemo_tests.conftest import login_test_params
 
 USER_COST = 16
 
-@pytest.mark.end2end
 @pytest.mark.parametrize("logged_in_page", login_test_params, indirect=True)
 def test_end2end_checkout_process(logged_in_page):
     page = logged_in_page
